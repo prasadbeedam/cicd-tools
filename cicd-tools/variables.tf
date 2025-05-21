@@ -1,5 +1,5 @@
 variable "zone_name" {
   type        = string
-  default     = "anuprasad.online"
+  default     = "prasadbeedam.shop"
   description = "description"
 }
