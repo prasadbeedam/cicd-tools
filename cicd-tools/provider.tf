@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "roboshop-dev"
-    key    = "roboshop-cicd-tools"
+    bucket = "helloworldapp-dev"
+    key    = "hello-locking-dev-tools"
     region = "us-east-1"
-    dynamodb_table = "roboshop-locking-dev"
+    dynamodb_table = "hello-locking-dev"
   }
 }
 
